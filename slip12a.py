@@ -3,9 +3,9 @@
 # Sample Dictionary (n=5)
 #Expected Output: {1:1, 2:4, 3:9, 4:16, 5:25}
 
-n=5
+n=input('Number: ')
+n=int(n)
 d={}
 for i in range(1,n+1):
-	d[i]=i*i
-
-print(d,end='')
+    	d[i]=i*i
+print(d)
