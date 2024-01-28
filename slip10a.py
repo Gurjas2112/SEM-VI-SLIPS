@@ -17,7 +17,7 @@ class Queue:
         else:
             print("Queue is empty")
 
-    def peek(self):
+    def first_element(self):
         if not self.is_empty():
             return self.items[0]
         else:
@@ -27,29 +27,24 @@ class Queue:
         return len(self.items)
 
 
-# Example usage:
-if __name__ == "__main__":
+if __name__ == '__main__':
     # Creating a queue
     my_queue = Queue()
 
-    # Enqueue elements
-    my_queue.enqueue(10)
-    my_queue.enqueue(20)
-    my_queue.enqueue(30)
+    # Enqueue elements to the Queue using user input
+    elements = input("Enter the elements to enqueue: ").split()
+    
+    for i in elements:
+        my_queue.enqueue(i)
 
-    # Display the queue
+    # Displaying the queue
     print("Queue:", my_queue.items)
 
-    # Dequeue element
-    dequeued_item = my_queue.dequeue()
-    print("Dequeued item:", dequeued_item)
+    # Dequeue elements from the queue
+    print("Dequeued element:", my_queue.dequeue())
 
-    # Peek at the front element
-    front_item = my_queue.peek()
-    print("Front item:", front_item)
+    # Displaying the front element of the queue
+    print("Front element:", my_queue.first_element())
 
-    # Display the updated queue
-    print("Updated Queue:", my_queue.items)
-
-    # Check the size of the queue
-    print("Size of the Queue:", my_queue.size())
+    # Displaying the size of the queue
+    print("Size of the queue:", my_queue.size())

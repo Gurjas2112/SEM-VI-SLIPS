@@ -9,5 +9,6 @@ def duplicate(arr):
 
 arr=input("List of numbers: ")
 arr=arr.split()
-arr=[int(i) for i in arr]
-print("New list: ",duplicate(arr))
+for i in range(len(arr)):
+    arr[i]=int(arr[i])
+print("List after removing duplicates: ",duplicate(arr))
