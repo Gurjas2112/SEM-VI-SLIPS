@@ -1,0 +1,64 @@
+The mobile app for the Wool Industry solution comprises various pages, each dedicated to specific functionalities and user interactions. Here is an overview of the key pages in the app:
+
+Splash Screen:
+
+Displayed briefly upon app launch, showing the app logo or a loading indicator during initialization.
+Authentication Pages:
+
+Login Screen:
+Allows users to log in by entering their credentials.
+Register Screen:
+Enables new users to create an account.
+Reset Password Screen:
+Allows users to reset their password if needed.
+Role-Based Dashboards:
+
+Producer Dashboard:
+Manages inventory and quality assurance.
+Buyer Dashboard:
+Accesses market information and trading functionalities.
+Processor Dashboard:
+Provides services related to processing wool.
+Market Information Pages:
+
+Market Info Screen:
+Displays general market information.
+Other Market Screens:
+Detailed trends, news, and additional market-related information.
+Inventory Pages:
+
+Inventory Screen:
+Manages inventory items.
+Quality Assurance Screen:
+Ensures quality through assessments.
+Wool Tracking Pages:
+
+Track Shipment Screen:
+Allows tracking of wool shipments.
+Processing Pages:
+
+Processing Services Screen:
+Offers services such as shearing, sorting, etc.
+Trading Pages:
+
+Trading Screen:
+Platform for buying and selling wool.
+Marketplace Screen:
+Facilitates direct selling from producers to buyers.
+Education Pages:
+
+Educational Resources Screen:
+Provides resources for improving production, design, etc.
+Profile and Support Pages:
+
+Profile Screen:
+Manages user profile and settings.
+Support Screen:
+Includes interaction and support features such as chat, FAQs, etc.
+Other Common Pages:
+
+Settings Screen:
+Allows users to customize app settings.
+FAQ Screen:
+Provides frequently asked questions and answers.
+These pages collectively form the user interface of the mobile app, providing a comprehensive platform for various stakeholders in the wool industry to interact with relevant information and functionalities. The navigation between these pages is orchestrated by the app's navigation system, guiding users through a seamless and intuitive experience.
